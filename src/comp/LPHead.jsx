@@ -5,7 +5,6 @@ import banner from "../img/Skyline.png";
 const Styles = styled.div`
   .landing-page-img {
     width: 100%;
-    margin-top: 5vh;
   }
   @media screen and (max-width:500px) {
     .landing-page-img{
@@ -15,9 +14,7 @@ const Styles = styled.div`
 export const LPHead = () => {
   return (
     <Styles>
-      <Container>
         <Image className="landing-page-img" src={banner} />
-      </Container>
     </Styles>
   );
 };
