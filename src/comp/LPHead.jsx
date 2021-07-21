@@ -7,6 +7,10 @@ const Styles = styled.div`
     width: 100%;
     margin-top: 5vh;
   }
+  @media screen and (max-width:500px) {
+    .landing-page-img{
+        margin-top:7vh;
+    }
 `;
 export const LPHead = () => {
   return (
