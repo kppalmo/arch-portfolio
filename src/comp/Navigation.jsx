@@ -11,15 +11,15 @@ const Styled = styled.div`
 export const Navigation = () => {
   return (
     <Styled>
-      <Navbar fixed="top" bg="light" expand="lg" className="nav-shad">
+      <Navbar fixed="top" bg="light" expand="lg" className="nav-shad mr-auto">
         <Container>
-          <Navbar.Brand href="#home">BH</Navbar.Brand>
+          <Navbar.Brand href="#home">BH Real Estate</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="#home">Projects</Nav.Link>
-              <Nav.Link href="#link">About</Nav.Link>
-              <Nav.Link href="#link">Contact</Nav.Link>
+            <Nav className="ms-auto">
+              <Nav.Item><Nav.Link href="#home">Projects</Nav.Link></Nav.Item>
+              <Nav.Item><Nav.Link href="#home">About</Nav.Link></Nav.Item>
+              <Nav.Item><Nav.Link href="#home">Contact</Nav.Link></Nav.Item>
             </Nav>
           </Navbar.Collapse>
         </Container>

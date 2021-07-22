@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Image } from "react-bootstrap";
+import { Image } from "react-bootstrap";
 import styled from "styled-components";
 import banner from "../img/Skyline.png";
 const Styles = styled.div`
