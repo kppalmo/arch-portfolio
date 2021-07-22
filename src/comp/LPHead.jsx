@@ -3,6 +3,7 @@ import { Image } from "react-bootstrap";
 import styled from "styled-components";
 import banner from "../img/Skyline.png";
 const Styles = styled.div`
+
   .landing-page-img {
     width: 100%;
   }
@@ -14,7 +15,7 @@ const Styles = styled.div`
 export const LPHead = () => {
   return (
     <Styles>
-        <Image className="landing-page-img" src={banner} />
+      <Image className="landing-page-img" src={banner} />
     </Styles>
   );
 };

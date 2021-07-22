@@ -4,6 +4,8 @@ import styled from "styled-components";
 import pic from "../img/picArt.png";
 
 const Styles = styled.div`
+Font-family: Rubik;
+
 .about-cont{
     margin-top:5vh;
     margin-bottom:10vh;

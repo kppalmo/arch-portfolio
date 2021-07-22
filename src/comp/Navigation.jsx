@@ -4,6 +4,7 @@ import { Container } from "react-bootstrap";
 import styled from "styled-components";
 
 const Styled = styled.div`
+  font-family: Rubik;
   .nav-shad {
     box-shadow: 0px 0px 10px #000;
   }
@@ -17,9 +18,15 @@ export const Navigation = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Item><Nav.Link href="#home">Projects</Nav.Link></Nav.Item>
-              <Nav.Item><Nav.Link href="#home">About</Nav.Link></Nav.Item>
-              <Nav.Item><Nav.Link href="#home">Contact</Nav.Link></Nav.Item>
+              <Nav.Item>
+                <Nav.Link href="#home">Projects</Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link href="#home">About</Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link href="#home">Contact</Nav.Link>
+              </Nav.Item>
             </Nav>
           </Navbar.Collapse>
         </Container>

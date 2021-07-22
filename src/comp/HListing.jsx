@@ -11,14 +11,16 @@ import house7 from "../img/house7.png";
 import house8 from "../img/house8.png";
 
 const Styles = styled.div`
+  font-family: Rubik;
+
   .h-proj {
     margin-top: 5vh;
   }
   .h-img-sizing {
     margin-top: 2vh;
     width: 100%;
-    border:solid;
-    border-width:1px;
+    border: solid;
+    border-width: 1px;
   }
   .h-img-sizing:hover {
     background-color: red;
